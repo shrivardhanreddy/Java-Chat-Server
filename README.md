@@ -4,7 +4,7 @@ Containerize the Server:
 ```docker run -d <servername>```
 ```docker logs <log-id>```
 
-Containerize the Clent:
+Containerize the Client:
 ```docker build -t <clientname> .```
 ```docker run -d clientname```
 ```docker logs <log-id>```
